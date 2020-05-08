@@ -1,0 +1,35 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'Student' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Student
+  pod 'Alamofire'
+ pod 'ObjectMapper', '~> 3.1'
+  pod 'Kingfisher', '~> 4.0'
+  pod 'JHSpinner'
+  pod 'IQKeyboardManager'
+  pod 'Cosmos', '~> 16.0'
+  pod 'LXStatusAlert'
+  pod 'UIView+Shake'
+  pod 'BottomPopup'
+  pod 'EMSpinnerButton'
+  pod 'SSSpinnerButton'
+  pod 'SwiftMessages'
+  pod 'Firebase/Core'
+  pod 'NotificationBannerSwift', '1.6.3'
+  pod 'FirebaseMessaging'
+  pod 'FAPanels'
+  pod 'libbambuser-ios', '0.9.23'
+
+  post_install do |installer|
+    installer.pods_project.targets.each do |target|
+      target.build_configurations.each do |config|
+        config.build_settings['SWIFT_VERSION'] = '5'
+      end
+    end
+  end
+
+end

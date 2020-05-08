@@ -1,0 +1,165 @@
+PODS:
+  - Alamofire (4.8.1)
+  - BottomPopup (0.4.1)
+  - Cosmos (16.0.0)
+  - EMSpinnerButton (1.0.1)
+  - FAPanels (2.0.1)
+  - Firebase/Core (6.0.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 6.0.0)
+  - Firebase/CoreOnly (6.0.0):
+    - FirebaseCore (= 6.0.0)
+  - FirebaseAnalytics (6.0.0):
+    - FirebaseCore (~> 6.0)
+    - FirebaseInstanceID (~> 4.0)
+    - GoogleAppMeasurement (= 6.0.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (~> 0.3)
+  - FirebaseAnalyticsInterop (1.2.0)
+  - FirebaseCore (6.0.0):
+    - GoogleUtilities/Environment (~> 6.0)
+    - GoogleUtilities/Logger (~> 6.0)
+  - FirebaseInstanceID (4.0.0):
+    - FirebaseCore (~> 6.0)
+    - GoogleUtilities/Environment (~> 6.0)
+    - GoogleUtilities/UserDefaults (~> 6.0)
+  - FirebaseMessaging (4.0.0):
+    - FirebaseAnalyticsInterop (~> 1.1)
+    - FirebaseCore (~> 6.0)
+    - FirebaseInstanceID (~> 4.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/Environment (~> 6.0)
+    - GoogleUtilities/Reachability (~> 6.0)
+    - GoogleUtilities/UserDefaults (~> 6.0)
+    - Protobuf (~> 3.1)
+  - GoogleAppMeasurement (6.0.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (~> 0.3)
+  - GoogleUtilities/AppDelegateSwizzler (6.0.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (6.0.0)
+  - GoogleUtilities/Logger (6.0.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (6.0.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (6.0.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (6.0.0)"
+  - GoogleUtilities/Reachability (6.0.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (6.0.0):
+    - GoogleUtilities/Logger
+  - IQKeyboardManager (6.2.0)
+  - JHSpinner (0.2.1)
+  - Kingfisher (4.10.1)
+  - libbambuser-ios (0.9.23)
+  - LXStatusAlert (1.0.0)
+  - MarqueeLabel/Swift (3.2.1)
+  - nanopb (0.3.901):
+    - nanopb/decode (= 0.3.901)
+    - nanopb/encode (= 0.3.901)
+  - nanopb/decode (0.3.901)
+  - nanopb/encode (0.3.901)
+  - NotificationBannerSwift (1.6.3):
+    - MarqueeLabel/Swift
+    - SnapKit (~> 4.0)
+  - ObjectMapper (3.4.2)
+  - Protobuf (3.7.0)
+  - SnapKit (4.2.0)
+  - SSSpinnerButton (2.0.1)
+  - SwiftMessages (6.0.2):
+    - SwiftMessages/App (= 6.0.2)
+  - SwiftMessages/App (6.0.2)
+  - "UIView+Shake (1.4.0)"
+
+DEPENDENCIES:
+  - Alamofire
+  - BottomPopup
+  - Cosmos (~> 16.0)
+  - EMSpinnerButton
+  - FAPanels
+  - Firebase/Core
+  - FirebaseMessaging
+  - IQKeyboardManager
+  - JHSpinner
+  - Kingfisher (~> 4.0)
+  - libbambuser-ios (= 0.9.23)
+  - LXStatusAlert
+  - NotificationBannerSwift (= 1.6.3)
+  - ObjectMapper (~> 3.1)
+  - SSSpinnerButton
+  - SwiftMessages
+  - "UIView+Shake"
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - BottomPopup
+    - Cosmos
+    - EMSpinnerButton
+    - FAPanels
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseAnalyticsInterop
+    - FirebaseCore
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - GoogleAppMeasurement
+    - GoogleUtilities
+    - IQKeyboardManager
+    - JHSpinner
+    - Kingfisher
+    - libbambuser-ios
+    - LXStatusAlert
+    - MarqueeLabel
+    - nanopb
+    - NotificationBannerSwift
+    - ObjectMapper
+    - Protobuf
+    - SnapKit
+    - SSSpinnerButton
+    - SwiftMessages
+    - "UIView+Shake"
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  BottomPopup: 052f0ea8bb1110d633e66529cbb07b8599eb227d
+  Cosmos: 7bcee0fa858a9355a214f2a181be5dffcee42c81
+  EMSpinnerButton: 32a807799d7edc3d008722c21c68b918e34c4944
+  FAPanels: 050291ef601a1dc00fad888f83e74284cb86dd52
+  Firebase: fa80b9d987ca014a1ba9357496ef2a0178b28b12
+  FirebaseAnalytics: 1743c5f4de3687d0745709dfdc4b1dea1484f44c
+  FirebaseAnalyticsInterop: efbe45c8385ec626e29f9525e5ebd38520dfb6c1
+  FirebaseCore: e38f025287b413255a53acc1945d048a112047f7
+  FirebaseInstanceID: 0e0348a3c00a734fa376a070f5ad4533ad975cb5
+  FirebaseMessaging: c796d50864dc822a3c06c9c1c1444b37732b795b
+  GoogleAppMeasurement: 7f028ea162b72c8f326daec74afc95d94f7a47d6
+  GoogleUtilities: f1faafc033ea203adf1783ce00af455bb99d0e5b
+  IQKeyboardManager: 6194101620b73af5e67900b8f89707a99de0b804
+  JHSpinner: bf7cc91a7e0ccad6336d2b0a3429dd34e7325e65
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  libbambuser-ios: 937f3e0ba6b87e66ee3cd94c2fcf16b6e4567004
+  LXStatusAlert: bfed15757e0004421b28b0c15f0a67963805025d
+  MarqueeLabel: 2daf039bf916937c8a4c9adfc13577cc5e51b4ce
+  nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  NotificationBannerSwift: b231e4c3244848ef300e1c53ce027b9756b9b06f
+  ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
+  Protobuf: 7a877b7f3e5964e3fce995e2eb323dbc6831bb5a
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SSSpinnerButton: d19a72144c7241f4c65f25b2debe1bb9e8274acc
+  SwiftMessages: 8b3cc68dba2f1c91aac1a74c90b10287aac35371
+  "UIView+Shake": 055ad67721de1f74d29c0a1d464697e505dfc62f
+
+PODFILE CHECKSUM: 3f8e5dbe9f3ece7376c0ce34c1b9a061f9dc1215
+
+COCOAPODS: 1.7.5
